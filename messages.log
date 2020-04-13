@@ -1,0 +1,375 @@
+********************************************************************************
+product = WebSphere Application Server 20.0.0.3 (wlp-1.0.38.cl200320200305-1433)
+wlp.install.dir = /home/fk/Documents/requires-asm8-experimental/target/liberty/wlp/
+java.home = /home/fk/.sdkman/candidates/java/14.0.0.j9-adpt
+java.version = 14
+java.runtime = OpenJDK Runtime Environment (14+36)
+os = Linux (4.15.0-96-generic; amd64) (en_US)
+process = 26193@lenovo
+********************************************************************************
+[4/13/20, 22:48:46:113 CEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[4/13/20, 22:48:46:218 CEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/20.0.0.3/lafiles/en.html
+[4/13/20, 22:48:47:573 CEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 1.856 seconds
+[4/13/20, 22:48:47:684 CEST] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[4/13/20, 22:48:56:585 CEST] 00000024 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[4/13/20, 22:48:57:076 CEST] 00000027 com.ibm.ws.annocache.service                                 I OSGi Work Path [ /home/fk/Documents/requires-asm8-experimental/target/liberty/wlp/usr/servers/defaultServer/workarea/org.eclipse.osgi/40/data ]
+[4/13/20, 22:48:57:488 CEST] 00000027 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[4/13/20, 22:48:58:264 CEST] 00000028 .apache.cxf.cxf.core.3.2:1.0.38.cl200320200305-1433(id=202)] I Aries Blueprint packages not available. So namespaces will not be registered
+[4/13/20, 22:48:58:422 CEST] 00000027 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[4/13/20, 22:48:58:425 CEST] 00000027 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[4/13/20, 22:48:58:426 CEST] 00000027 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[4/13/20, 22:48:58:731 CEST] 0000002c com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0802I: Creating the SSL certificate. This may take a few seconds.
+[4/13/20, 22:48:58:755 CEST] 0000003c com.ibm.ws.security.token.ltpa.internal.LTPAKeyInfoManager   I CWWKS4103I: Creating the LTPA keys. This may take a few seconds.
+[4/13/20, 22:48:58:804 CEST] 00000024 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[4/13/20, 22:48:59:077 CEST] 00000024 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
+[4/13/20, 22:48:59:501 CEST] 0000003c com.ibm.ws.security.token.ltpa.internal.LTPAKeyInfoManager   A CWWKS4104A: LTPA keys created in 0.746 seconds. LTPA key file: /home/fk/Documents/requires-asm8-experimental/target/liberty/wlp/usr/servers/defaultServer/resources/security/ltpa.keys
+[4/13/20, 22:48:59:507 CEST] 0000003c com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0008I: The security service is ready.
+[4/13/20, 22:48:59:508 CEST] 0000003c com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.755 seconds.
+[4/13/20, 22:48:59:863 CEST] 00000024 com.ibm.ws.sib.utils.ras.SibMessage                          I  CWSIS1553I: The minimum reserved size in the configuration information of the permanent store file is 20,971,520 bytes. The maximum size is 209,715,200 bytes.
+[4/13/20, 22:48:59:867 CEST] 00000024 com.ibm.ws.sib.utils.ras.SibMessage                          I  CWSIS1557I: The minimum reserved size in the configuration information of the temporary store file is 20,971,520 bytes. The maximum size is 209,715,200 bytes.
+[4/13/20, 22:49:00:453 CEST] 00000024 com.ibm.ws.sib.utils.ras.SibMessage                          I  CWSID0108I: JMS server has started.  
+[4/13/20, 22:49:00:664 CEST] 00000024 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf.cxf.rt.transports.http.3.2 (198) [org.apache.cxf.transport.http.HTTPTransportFactory, org.apache.cxf.transport.http.HTTPWSDLExtensionLoader, org.apache.cxf.transport.http.policy.HTTPClientAssertionBuilder, org.apache.cxf.transport.http.policy.HTTPServerAssertionBuilder, org.apache.cxf.transport.http.policy.NoOpPolicyInterceptorProvider]
+[4/13/20, 22:49:00:669 CEST] 00000024 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf.cxf.core.3.2 (202) [org.apache.cxf.phase.PhaseManager, org.apache.cxf.workqueue.WorkQueueManager, org.apache.cxf.buslifecycle.BusLifeCycleManager, org.apache.cxf.endpoint.ServerRegistry, org.apache.cxf.endpoint.EndpointResolverRegistry, org.apache.cxf.headers.HeaderManager, org.apache.cxf.service.factory.FactoryBeanListenerManager, org.apache.cxf.endpoint.ServerLifeCycleManager, org.apache.cxf.endpoint.ClientLifeCycleManager, org.apache.cxf.resource.ResourceManager, org.apache.cxf.catalog.OASISCatalogManager, org.apache.cxf.transport.http.HTTPTransportFactory, org.apache.cxf.transport.http.HTTPConduitFactory, org.apache.cxf.transport.ConduitInitiator]
+[4/13/20, 22:49:00:701 CEST] 00000024 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf.cxf.rt.ws.addr.2.6.2 (260) [org.apache.cxf.ws.addressing.policy.AddressingAssertionBuilder, org.apache.cxf.ws.addressing.policy.UsingAddressingAssertionBuilder, org.apache.cxf.ws.addressing.policy.AddressingPolicyInterceptorProvider, org.apache.cxf.ws.addressing.impl.AddressingWSDLExtensionLoader, org.apache.cxf.ws.addressing.WSAddressingFeature$WSAddressingFeatureApplier, org.apache.cxf.ws.addressing.MAPAggregator$MAPAggregatorLoader]
+[4/13/20, 22:49:00:702 CEST] 00000024 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf.cxf.rt.bindings.soap.2.6.2 (261) [org.apache.cxf.binding.soap.SoapBindingFactory, org.apache.cxf.binding.soap.SoapTransportFactory]
+[4/13/20, 22:49:00:703 CEST] 00000024 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf.cxf.rt.bindings.xml.2.6.2 (267) [org.apache.cxf.binding.xml.XMLBindingFactory, org.apache.cxf.binding.xml.wsdl11.XMLWSDLExtensionLoader]
+[4/13/20, 22:49:00:703 CEST] 00000024 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf.cxf.rt.frontend.jaxws.2.6.2 (269) [org.apache.cxf.jaxws.context.WebServiceContextResourceResolver]
+[4/13/20, 22:49:00:704 CEST] 00000024 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf.cxf.rt.management.2.6.2 (271) [org.apache.cxf.management.InstrumentationManager]
+[4/13/20, 22:49:00:705 CEST] 00000024 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf.cxf.rt.transports.http.2.6.2 (276) [org.apache.cxf.transport.http.HTTPTransportFactory, org.apache.cxf.transport.http.HTTPWSDLExtensionLoader, org.apache.cxf.transport.http.policy.HTTPClientAssertionBuilder, org.apache.cxf.transport.http.policy.HTTPServerAssertionBuilder, org.apache.cxf.transport.http.policy.NoOpPolicyInterceptorProvider]
+[4/13/20, 22:49:00:705 CEST] 00000024 org.apache.cxf.bus.osgi.CXFActivator                         I Adding the extensions from bundle com.ibm.ws.org.apache.cxf.cxf.rt.ws.policy.2.6.2 (277) [org.apache.cxf.ws.policy.PolicyEngine, org.apache.cxf.policy.PolicyDataEngine, org.apache.cxf.ws.policy.AssertionBuilderRegistry, org.apache.cxf.ws.policy.PolicyInterceptorProviderRegistry, org.apache.cxf.ws.policy.PolicyBuilder, org.apache.cxf.ws.policy.PolicyAnnotationListener, org.apache.cxf.ws.policy.attachment.ServiceModelPolicyProvider, org.apache.cxf.ws.policy.attachment.external.DomainExpressionBuilderRegistry, org.apache.cxf.ws.policy.attachment.external.EndpointReferenceDomainExpressionBuilder, org.apache.cxf.ws.policy.attachment.wsdl11.Wsdl11AttachmentPolicyProvider, org.apache.cxf.ws.policy.mtom.MTOMAssertionBuilder, org.apache.cxf.ws.policy.mtom.MTOMPolicyInterceptorProvider]
+[4/13/20, 22:49:00:741 CEST] 0000002c com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0803A: SSL certificate created in 2.010 seconds. SSL key file: /home/fk/Documents/requires-asm8-experimental/target/liberty/wlp/usr/servers/defaultServer/resources/security/key.p12
+[4/13/20, 22:49:00:741 CEST] 0000002c com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: /home/fk/Documents/requires-asm8-experimental/target/liberty/wlp/usr/servers/defaultServer/resources/security/key.p12 of type: PKCS12
+[4/13/20, 22:49:01:508 CEST] 00000028 com.ibm.ws.transport.iiop.internal.ORBWrapperInternal        A CWWKI0001I: The CORBA name server is now available at corbaloc:iiop:localhost:2809/NameService.
+[4/13/20, 22:49:02:769 CEST] 00000035 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application requires-asm8-experimental-1.0-SNAPSHOT.
+[4/13/20, 22:49:02:770 CEST] 00000035 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The requires-asm8-experimental-1.0-SNAPSHOT application is using the loose application definition at the /home/fk/Documents/requires-asm8-experimental/target/liberty/wlp/usr/servers/defaultServer/dropins/requires-asm8-experimental-1.0-SNAPSHOT.war.xml location.
+[4/13/20, 22:49:03:227 CEST] 00000035 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "java.lang.UnsupportedOperationException: This feature requires ASM8_EXPERIMENTAL com.ibm.ws.annocache.targets.internal.TargetsTableImpl 1334" at ffdc_20.04.13_22.49.03.0.log
+[4/13/20, 22:49:03:232 CEST] 00000035 com.ibm.ws.annocache                                         W [ TargetsTableImpl@e8928a17 ] ANNO_TARGETS_SCAN_EXCEPTION [ de.fk.wlp.TestRecord ] (java.lang.UnsupportedOperationException: This feature requires ASM8_EXPERIMENTAL
+	at org.objectweb.asm.ClassVisitor.visitRecordComponentExperimental(ClassVisitor.java:304)
+	at org.objectweb.asm.ClassReader.readRecordComponent(ClassReader.java:929)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:704)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:401)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.apply(TargetsTableImpl.java:1299)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl$1.process(TargetsTableImpl.java:839)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processEntry(ClassSourceImpl_MappedContainer.java:355)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:310)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processFromScratch(ClassSourceImpl_MappedContainer.java:181)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl.process(ClassSourceImpl.java:555)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.scanInternal(TargetsTableImpl.java:898)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerBaseImpl.scanInternal(TargetsScannerBaseImpl.java:466)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainer(TargetsScannerOverallImpl.java:874)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers(TargetsScannerOverallImpl.java:1017)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers_Select(TargetsScannerOverallImpl.java:968)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalUnresolved(TargetsScannerOverallImpl.java:1560)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternal(TargetsScannerOverallImpl.java:2084)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.ensureInternalResults(AnnotationTargetsImpl_Targets.java:730)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getSeedTable(AnnotationTargetsImpl_Targets.java:559)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAnnotatedClasses(AnnotationTargetsImpl_Targets.java:1117)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAnnotatedClasses(AnnotationTargetsImpl_Targets.java:1169)
+	at com.ibm.ws.container.service.annocache.internal.FragmentAnnotationsImpl.selectAnnotatedClasses(FragmentAnnotationsImpl.java:50)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfiguratorHelper.configureFromAnnotations(WebAppConfiguratorHelper.java:823)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfigurator.configure(WebAppConfigurator.java:439)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfigurationAdapter.adapt(WebAppConfigurationAdapter.java:119)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfigurationAdapter.adapt(WebAppConfigurationAdapter.java:43)
+	at com.ibm.ws.adaptable.module.internal.AdapterFactoryServiceImpl.adapt(AdapterFactoryServiceImpl.java:200)
+	at com.ibm.ws.adaptable.module.internal.AdaptableContainerImpl.adapt(AdaptableContainerImpl.java:174)
+	at com.ibm.ws.webcontainer.osgi.WebContainer.createModuleMetaData(WebContainer.java:833)
+	at com.ibm.ws.app.manager.module.internal.ModuleHandlerBase.createModuleMetaData(ModuleHandlerBase.java:63)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase$ModuleContainerInfoBase.createModuleMetaData(SimpleDeployedAppInfoBase.java:189)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.preDeployApp(SimpleDeployedAppInfoBase.java:532)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.installApp(SimpleDeployedAppInfoBase.java:508)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:347)
+	at com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl.install(WARApplicationHandlerImpl.java:65)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:140)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1264)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:879)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+ : This feature requires ASM8_EXPERIMENTAL)
+[4/13/20, 22:49:03:378 CEST] 00000035 com.ibm.ws.annocache                                         W Scan exception
+java.lang.UnsupportedOperationException: This feature requires ASM8_EXPERIMENTAL
+	at org.objectweb.asm.ClassVisitor.visitRecordComponentExperimental(ClassVisitor.java:304)
+	at org.objectweb.asm.ClassReader.readRecordComponent(ClassReader.java:929)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:704)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:401)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.apply(TargetsTableImpl.java:1299)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl$1.process(TargetsTableImpl.java:839)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processEntry(ClassSourceImpl_MappedContainer.java:355)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:310)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processFromScratch(ClassSourceImpl_MappedContainer.java:181)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl.process(ClassSourceImpl.java:555)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.scanInternal(TargetsTableImpl.java:898)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerBaseImpl.scanInternal(TargetsScannerBaseImpl.java:466)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainer(TargetsScannerOverallImpl.java:874)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers(TargetsScannerOverallImpl.java:1017)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers_Select(TargetsScannerOverallImpl.java:968)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalUnresolved(TargetsScannerOverallImpl.java:1560)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternal(TargetsScannerOverallImpl.java:2084)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.ensureInternalResults(AnnotationTargetsImpl_Targets.java:730)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getSeedTable(AnnotationTargetsImpl_Targets.java:559)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAnnotatedClasses(AnnotationTargetsImpl_Targets.java:1117)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAnnotatedClasses(AnnotationTargetsImpl_Targets.java:1169)
+	at com.ibm.ws.container.service.annocache.internal.FragmentAnnotationsImpl.selectAnnotatedClasses(FragmentAnnotationsImpl.java:50)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfiguratorHelper.configureFromAnnotations(WebAppConfiguratorHelper.java:823)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfigurator.configure(WebAppConfigurator.java:439)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfigurationAdapter.adapt(WebAppConfigurationAdapter.java:119)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfigurationAdapter.adapt(WebAppConfigurationAdapter.java:43)
+	at com.ibm.ws.adaptable.module.internal.AdapterFactoryServiceImpl.adapt(AdapterFactoryServiceImpl.java:200)
+	at com.ibm.ws.adaptable.module.internal.AdaptableContainerImpl.adapt(AdaptableContainerImpl.java:174)
+	at com.ibm.ws.webcontainer.osgi.WebContainer.createModuleMetaData(WebContainer.java:833)
+	at com.ibm.ws.app.manager.module.internal.ModuleHandlerBase.createModuleMetaData(ModuleHandlerBase.java:63)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase$ModuleContainerInfoBase.createModuleMetaData(SimpleDeployedAppInfoBase.java:189)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.preDeployApp(SimpleDeployedAppInfoBase.java:532)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.installApp(SimpleDeployedAppInfoBase.java:508)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:347)
+	at com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl.install(WARApplicationHandlerImpl.java:65)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:140)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1264)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:879)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+[4/13/20, 22:49:03:596 CEST] 00000035 org.apache.cxf.management.jmx.InstrumentationManagerImpl     I registering MBean org.apache.cxf:bus.id=requires-asm8-experimental-1.0-SNAPSHOT-Server-Bus,type=Bus,instance.id=560316801: org.apache.cxf.bus.ManagedBus@26bdc2ec
+[4/13/20, 22:49:03:622 CEST] 00000035 org.apache.cxf.management.jmx.InstrumentationManagerImpl     I registered org.apache.cxf:bus.id=requires-asm8-experimental-1.0-SNAPSHOT-Server-Bus,type=Bus,instance.id=560316801
+[4/13/20, 22:49:03:803 CEST] 00000035 org.apache.cxf.management.jmx.InstrumentationManagerImpl     I registering MBean org.apache.cxf:bus.id=requires-asm8-experimental-1.0-SNAPSHOT-Server-Bus,WorkQueueManager=Bus.WorkQueueManager,type=WorkQueueManager,instance.id=-1737031441: org.apache.cxf.bus.managers.WorkQueueManagerImplMBeanWrapper@5a191898
+[4/13/20, 22:49:03:915 CEST] 00000035 org.jboss.weld.Version                                       I WELD-000900: 3.1.1 (Final)
+[4/13/20, 22:49:04:016 CEST] 00000035 com.ibm.ws.annocache                                         W [ TargetsTableImpl@68bd701 ] ANNO_TARGETS_SCAN_EXCEPTION [ de.fk.wlp.TestRecord ] (java.lang.UnsupportedOperationException: This feature requires ASM8_EXPERIMENTAL
+	at org.objectweb.asm.ClassVisitor.visitRecordComponentExperimental(ClassVisitor.java:304)
+	at org.objectweb.asm.ClassReader.readRecordComponent(ClassReader.java:929)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:704)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:401)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.apply(TargetsTableImpl.java:1299)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl$1.process(TargetsTableImpl.java:839)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processEntry(ClassSourceImpl_MappedContainer.java:355)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:310)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processFromScratch(ClassSourceImpl_MappedContainer.java:181)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl.process(ClassSourceImpl.java:555)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.scanInternal(TargetsTableImpl.java:898)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerBaseImpl.scanInternal(TargetsScannerBaseImpl.java:466)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainer(TargetsScannerOverallImpl.java:874)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers(TargetsScannerOverallImpl.java:1017)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers_Select(TargetsScannerOverallImpl.java:968)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalUnresolved(TargetsScannerOverallImpl.java:1560)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternal(TargetsScannerOverallImpl.java:2084)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.ensureInternalResults(AnnotationTargetsImpl_Targets.java:730)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getSeedTable(AnnotationTargetsImpl_Targets.java:559)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAnnotatedClasses(AnnotationTargetsImpl_Targets.java:1117)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAllInheritedAnnotatedClasses(AnnotationTargetsImpl_Targets.java:2035)
+	at com.ibm.ws.container.service.annocache.internal.AnnotationsImpl.getClassesWithSpecifiedInheritedAnnotations(AnnotationsImpl.java:1057)
+	at com.ibm.ws.cdi.internal.archive.liberty.CDIArchiveImpl.getAnnotatedClassesPostBeta(CDIArchiveImpl.java:634)
+	at com.ibm.ws.cdi.internal.archive.liberty.CDIArchiveImpl.getAnnotatedClasses(CDIArchiveImpl.java:457)
+	at com.ibm.ws.cdi.internal.archive.AbstractCDIArchive.getBeanDefiningAnnotations(AbstractCDIArchive.java:283)
+	at com.ibm.ws.cdi.impl.weld.BeanDeploymentArchiveImpl.scanForBeanDefiningAnnotations(BeanDeploymentArchiveImpl.java:202)
+	at com.ibm.ws.cdi.impl.weld.WebSphereCDIDeploymentImpl.scan(WebSphereCDIDeploymentImpl.java:597)
+	at com.ibm.ws.cdi.impl.CDIContainerImpl.startInitialization(CDIContainerImpl.java:128)
+	at com.ibm.ws.cdi.liberty.CDIRuntimeImpl.applicationStarting(CDIRuntimeImpl.java:453)
+	at com.ibm.ws.container.service.state.internal.ApplicationStateManager.fireStarting(ApplicationStateManager.java:51)
+	at com.ibm.ws.container.service.state.internal.StateChangeServiceImpl.fireApplicationStarting(StateChangeServiceImpl.java:50)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.preDeployApp(SimpleDeployedAppInfoBase.java:547)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.installApp(SimpleDeployedAppInfoBase.java:508)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:347)
+	at com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl.install(WARApplicationHandlerImpl.java:65)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:140)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1264)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:879)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+ : This feature requires ASM8_EXPERIMENTAL)
+[4/13/20, 22:49:04:021 CEST] 00000035 com.ibm.ws.annocache                                         W Scan exception
+java.lang.UnsupportedOperationException: This feature requires ASM8_EXPERIMENTAL
+	at org.objectweb.asm.ClassVisitor.visitRecordComponentExperimental(ClassVisitor.java:304)
+	at org.objectweb.asm.ClassReader.readRecordComponent(ClassReader.java:929)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:704)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:401)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.apply(TargetsTableImpl.java:1299)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl$1.process(TargetsTableImpl.java:839)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processEntry(ClassSourceImpl_MappedContainer.java:355)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:310)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processFromScratch(ClassSourceImpl_MappedContainer.java:181)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl.process(ClassSourceImpl.java:555)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.scanInternal(TargetsTableImpl.java:898)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerBaseImpl.scanInternal(TargetsScannerBaseImpl.java:466)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainer(TargetsScannerOverallImpl.java:874)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers(TargetsScannerOverallImpl.java:1017)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers_Select(TargetsScannerOverallImpl.java:968)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalUnresolved(TargetsScannerOverallImpl.java:1560)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternal(TargetsScannerOverallImpl.java:2084)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.ensureInternalResults(AnnotationTargetsImpl_Targets.java:730)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getSeedTable(AnnotationTargetsImpl_Targets.java:559)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAnnotatedClasses(AnnotationTargetsImpl_Targets.java:1117)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAllInheritedAnnotatedClasses(AnnotationTargetsImpl_Targets.java:2035)
+	at com.ibm.ws.container.service.annocache.internal.AnnotationsImpl.getClassesWithSpecifiedInheritedAnnotations(AnnotationsImpl.java:1057)
+	at com.ibm.ws.cdi.internal.archive.liberty.CDIArchiveImpl.getAnnotatedClassesPostBeta(CDIArchiveImpl.java:634)
+	at com.ibm.ws.cdi.internal.archive.liberty.CDIArchiveImpl.getAnnotatedClasses(CDIArchiveImpl.java:457)
+	at com.ibm.ws.cdi.internal.archive.AbstractCDIArchive.getBeanDefiningAnnotations(AbstractCDIArchive.java:283)
+	at com.ibm.ws.cdi.impl.weld.BeanDeploymentArchiveImpl.scanForBeanDefiningAnnotations(BeanDeploymentArchiveImpl.java:202)
+	at com.ibm.ws.cdi.impl.weld.WebSphereCDIDeploymentImpl.scan(WebSphereCDIDeploymentImpl.java:597)
+	at com.ibm.ws.cdi.impl.CDIContainerImpl.startInitialization(CDIContainerImpl.java:128)
+	at com.ibm.ws.cdi.liberty.CDIRuntimeImpl.applicationStarting(CDIRuntimeImpl.java:453)
+	at com.ibm.ws.container.service.state.internal.ApplicationStateManager.fireStarting(ApplicationStateManager.java:51)
+	at com.ibm.ws.container.service.state.internal.StateChangeServiceImpl.fireApplicationStarting(StateChangeServiceImpl.java:50)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.preDeployApp(SimpleDeployedAppInfoBase.java:547)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.installApp(SimpleDeployedAppInfoBase.java:508)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:347)
+	at com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl.install(WARApplicationHandlerImpl.java:65)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:140)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1264)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:879)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+[4/13/20, 22:49:04:300 CEST] 00000035 com.ibm.ws.annocache                                         W [ TargetsTableImpl@b6a45bb8 ] ANNO_TARGETS_SCAN_EXCEPTION [ de.fk.wlp.TestRecord ] (java.lang.UnsupportedOperationException: This feature requires ASM8_EXPERIMENTAL
+	at org.objectweb.asm.ClassVisitor.visitRecordComponentExperimental(ClassVisitor.java:304)
+	at org.objectweb.asm.ClassReader.readRecordComponent(ClassReader.java:929)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:704)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:401)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.apply(TargetsTableImpl.java:1299)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl$1.process(TargetsTableImpl.java:839)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processEntry(ClassSourceImpl_MappedContainer.java:355)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:310)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processFromScratch(ClassSourceImpl_MappedContainer.java:181)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl.process(ClassSourceImpl.java:555)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.scanInternal(TargetsTableImpl.java:898)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerBaseImpl.scanInternal(TargetsScannerBaseImpl.java:466)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainer(TargetsScannerOverallImpl.java:874)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers(TargetsScannerOverallImpl.java:1017)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers_Select(TargetsScannerOverallImpl.java:968)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalUnresolved(TargetsScannerOverallImpl.java:1560)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternal(TargetsScannerOverallImpl.java:2084)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.ensureInternalResults(AnnotationTargetsImpl_Targets.java:730)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getSeedTable(AnnotationTargetsImpl_Targets.java:559)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAnnotatedClasses(AnnotationTargetsImpl_Targets.java:1117)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAllInheritedAnnotatedClasses(AnnotationTargetsImpl_Targets.java:2035)
+	at com.ibm.ws.container.service.annocache.internal.AnnotationsImpl.getClassesWithSpecifiedInheritedAnnotations(AnnotationsImpl.java:1057)
+	at com.ibm.ws.cdi.internal.archive.liberty.CDIArchiveImpl.getAnnotatedClassesPostBeta(CDIArchiveImpl.java:634)
+	at com.ibm.ws.cdi.internal.archive.liberty.CDIArchiveImpl.getAnnotatedClasses(CDIArchiveImpl.java:457)
+	at com.ibm.ws.cdi.impl.weld.BeanDeploymentArchiveImpl.scanForBeanClassNames(BeanDeploymentArchiveImpl.java:312)
+	at com.ibm.ws.cdi.impl.weld.BeanDeploymentArchiveImpl.scan(BeanDeploymentArchiveImpl.java:263)
+	at com.ibm.ws.cdi.impl.weld.WebSphereCDIDeploymentImpl.scan(WebSphereCDIDeploymentImpl.java:601)
+	at com.ibm.ws.cdi.impl.CDIContainerImpl.startInitialization(CDIContainerImpl.java:128)
+	at com.ibm.ws.cdi.liberty.CDIRuntimeImpl.applicationStarting(CDIRuntimeImpl.java:453)
+	at com.ibm.ws.container.service.state.internal.ApplicationStateManager.fireStarting(ApplicationStateManager.java:51)
+	at com.ibm.ws.container.service.state.internal.StateChangeServiceImpl.fireApplicationStarting(StateChangeServiceImpl.java:50)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.preDeployApp(SimpleDeployedAppInfoBase.java:547)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.installApp(SimpleDeployedAppInfoBase.java:508)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:347)
+	at com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl.install(WARApplicationHandlerImpl.java:65)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:140)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1264)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:879)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+ : This feature requires ASM8_EXPERIMENTAL)
+[4/13/20, 22:49:04:302 CEST] 00000035 com.ibm.ws.annocache                                         W Scan exception
+java.lang.UnsupportedOperationException: This feature requires ASM8_EXPERIMENTAL
+	at org.objectweb.asm.ClassVisitor.visitRecordComponentExperimental(ClassVisitor.java:304)
+	at org.objectweb.asm.ClassReader.readRecordComponent(ClassReader.java:929)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:704)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:401)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.apply(TargetsTableImpl.java:1299)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl$1.process(TargetsTableImpl.java:839)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processEntry(ClassSourceImpl_MappedContainer.java:355)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:310)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:279)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processFromScratch(ClassSourceImpl_MappedContainer.java:181)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl.process(ClassSourceImpl.java:555)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.scanInternal(TargetsTableImpl.java:898)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerBaseImpl.scanInternal(TargetsScannerBaseImpl.java:466)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainer(TargetsScannerOverallImpl.java:874)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers(TargetsScannerOverallImpl.java:1017)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers_Select(TargetsScannerOverallImpl.java:968)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalUnresolved(TargetsScannerOverallImpl.java:1560)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternal(TargetsScannerOverallImpl.java:2084)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.ensureInternalResults(AnnotationTargetsImpl_Targets.java:730)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getSeedTable(AnnotationTargetsImpl_Targets.java:559)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAnnotatedClasses(AnnotationTargetsImpl_Targets.java:1117)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAllInheritedAnnotatedClasses(AnnotationTargetsImpl_Targets.java:2035)
+	at com.ibm.ws.container.service.annocache.internal.AnnotationsImpl.getClassesWithSpecifiedInheritedAnnotations(AnnotationsImpl.java:1057)
+	at com.ibm.ws.cdi.internal.archive.liberty.CDIArchiveImpl.getAnnotatedClassesPostBeta(CDIArchiveImpl.java:634)
+	at com.ibm.ws.cdi.internal.archive.liberty.CDIArchiveImpl.getAnnotatedClasses(CDIArchiveImpl.java:457)
+	at com.ibm.ws.cdi.impl.weld.BeanDeploymentArchiveImpl.scanForBeanClassNames(BeanDeploymentArchiveImpl.java:312)
+	at com.ibm.ws.cdi.impl.weld.BeanDeploymentArchiveImpl.scan(BeanDeploymentArchiveImpl.java:263)
+	at com.ibm.ws.cdi.impl.weld.WebSphereCDIDeploymentImpl.scan(WebSphereCDIDeploymentImpl.java:601)
+	at com.ibm.ws.cdi.impl.CDIContainerImpl.startInitialization(CDIContainerImpl.java:128)
+	at com.ibm.ws.cdi.liberty.CDIRuntimeImpl.applicationStarting(CDIRuntimeImpl.java:453)
+	at com.ibm.ws.container.service.state.internal.ApplicationStateManager.fireStarting(ApplicationStateManager.java:51)
+	at com.ibm.ws.container.service.state.internal.StateChangeServiceImpl.fireApplicationStarting(StateChangeServiceImpl.java:50)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.preDeployApp(SimpleDeployedAppInfoBase.java:547)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.installApp(SimpleDeployedAppInfoBase.java:508)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:347)
+	at com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl.install(WARApplicationHandlerImpl.java:65)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:140)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1264)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:879)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+[4/13/20, 22:49:04:758 CEST] 00000035 org.jboss.weld.Event                                         I WELD-000411: Observer method [BackedAnnotatedMethod] org.apache.myfaces.config.annotation.CdiAnnotationProviderExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[4/13/20, 22:49:04:762 CEST] 00000035 org.jboss.weld.Event                                         I WELD-000411: Observer method [BackedAnnotatedMethod] org.apache.myfaces.cdi.JsfArtifactProducerExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[4/13/20, 22:49:04:850 CEST] 00000035 org.hibernate.validator.internal.util.Version                I HV000001: Hibernate Validator 6.1.1.Final
+[4/13/20, 22:49:05:771 CEST] 00000035 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[4/13/20, 22:49:05:781 CEST] 00000035 com.ibm.ws.ejbcontainer.osgi.internal.EJBRuntimeImpl         I CNTR4000I: The requires-asm8-experimental-1.0-SNAPSHOT.war EJB module in the requires-asm8-experimental-1.0-SNAPSHOT application is starting.
+[4/13/20, 22:49:05:785 CEST] 00000035 com.ibm.ws.ejbcontainer.runtime.AbstractEJBRuntime           I CNTR0167I: The server is binding the de.fk.wlp.TestFeature interface of the TestFeature enterprise bean in the requires-asm8-experimental-1.0-SNAPSHOT.war module of the requires-asm8-experimental-1.0-SNAPSHOT application.  The binding location is: java:global/requires-asm8-experimental-1.0-SNAPSHOT/TestFeature!de.fk.wlp.TestFeature
+[4/13/20, 22:49:05:797 CEST] 00000035 com.ibm.ws.ejbcontainer.osgi.internal.EJBRuntimeImpl         I CNTR4001I: The requires-asm8-experimental-1.0-SNAPSHOT.war EJB module in the requires-asm8-experimental-1.0-SNAPSHOT application has started successfully.
+[4/13/20, 22:49:05:801 CEST] 00000035 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: requires-asm8-experimental-1.0-SNAPSHOT.
+[4/13/20, 22:49:05:804 CEST] 00000035 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module requires-asm8-experimental-1.0-SNAPSHOT has been bound to default_host.
+[4/13/20, 22:49:05:805 CEST] 00000035 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/requires-asm8-experimental-1.0-SNAPSHOT/
+[4/13/20, 22:49:05:818 CEST] 00000035 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application requires-asm8-experimental-1.0-SNAPSHOT started in 3.048 seconds.
+[4/13/20, 22:49:05:834 CEST] 00000070 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/requires-asm8-experimental-1.0-SNAPSHOT
+[4/13/20, 22:49:05:851 CEST] 00000070 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[4/13/20, 22:49:05:882 CEST] 00000030 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host localhost  (IPv4: 127.0.0.1) port 9080.
+[4/13/20, 22:49:05:886 CEST] 00000030 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel wasJmsEndpoint531 has been started and is now listening for requests on host localhost  (IPv4: 127.0.0.1) port 7276.
+[4/13/20, 22:49:05:886 CEST] 00000030 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host localhost  (IPv4: 127.0.0.1) port 9443.
+[4/13/20, 22:49:05:886 CEST] 00000030 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel wasJmsEndpoint531-ssl has been started and is now listening for requests on host localhost  (IPv4: 127.0.0.1) port 7286.
+[4/13/20, 22:49:05:971 CEST] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [appClientSupport-1.0, appSecurity-2.0, appSecurity-3.0, batch-1.0, beanValidation-2.0, cdi-2.0, concurrent-1.0, distributedMap-1.0, ejb-3.2, ejbHome-3.2, ejbLite-3.2, ejbPersistentTimer-3.2, ejbRemote-3.2, el-3.0, j2eeManagement-1.1, jacc-1.5, jaspic-1.1, javaMail-1.6, javaee-8.0, jaxb-2.2, jaxrs-2.1, jaxrsClient-2.1, jaxws-2.2, jca-1.7, jcaInboundSecurity-1.0, jdbc-4.2, jms-2.0, jndi-1.0, jpa-2.2, jpaContainer-2.2, jsf-2.3, jsonb-1.0, jsonp-1.1, jsp-2.3, managedBeans-1.0, mdb-3.2, servlet-4.0, ssl-1.0, wasJmsClient-2.0, wasJmsSecurity-1.0, wasJmsServer-1.0, webProfile-8.0, websocket-1.1].
+[4/13/20, 22:49:05:973 CEST] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 18.404 seconds.
+[4/13/20, 22:49:05:973 CEST] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The defaultServer server is ready to run a smarter planet. The defaultServer server started in 20.260 seconds.
+[4/13/20, 22:49:06:015 CEST] 00000070 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[4/13/20, 22:49:06:033 CEST] 00000070 org.apache.myfaces.ee.MyFacesContainerInitializer            I Using org.apache.myfaces.ee.MyFacesContainerInitializer
+[4/13/20, 22:49:06:197 CEST] 00000071 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/fk/Documents/requires-asm8-experimental/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[4/13/20, 22:49:21:241 CEST] 00000021 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: The server defaultServer is stopping because the JVM is exiting.
+[4/13/20, 22:49:21:244 CEST] 00000076 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[4/13/20, 22:49:21:250 CEST] 00000037 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint-ssl has stopped listening for requests on host localhost  (IPv4: 127.0.0.1) port 9443.
+[4/13/20, 22:49:21:255 CEST] 0000006f com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host localhost  (IPv4: 127.0.0.1) port 9080.
+[4/13/20, 22:49:21:255 CEST] 0000006f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/requires-asm8-experimental-1.0-SNAPSHOT/
+[4/13/20, 22:49:21:263 CEST] 00000037 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel wasJmsEndpoint531 has stopped listening for requests on host localhost  (IPv4: 127.0.0.1) port 7276.
+[4/13/20, 22:49:21:289 CEST] 00000037 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel wasJmsEndpoint531-ssl has stopped listening for requests on host localhost  (IPv4: 127.0.0.1) port 7286.
+[4/13/20, 22:49:21:495 CEST] 00000022 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Monday, April 13, 2020 at 10:49 PM. The server defaultServer is shutting down.
+[4/13/20, 22:49:22:290 CEST] 00000076 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[4/13/20, 22:49:22:339 CEST] 00000033 com.ibm.ws.ejbcontainer.osgi.internal.EJBRuntimeImpl         I CNTR4003I: The requires-asm8-experimental-1.0-SNAPSHOT.war EJB module in the requires-asm8-experimental-1.0-SNAPSHOT application is stopping.
+[4/13/20, 22:49:22:343 CEST] 00000033 com.ibm.ws.ejbcontainer.osgi.internal.EJBRuntimeImpl         I CNTR4004I: The requires-asm8-experimental-1.0-SNAPSHOT.war EJB module in the requires-asm8-experimental-1.0-SNAPSHOT application has stopped successfully.
+[4/13/20, 22:49:22:363 CEST] 00000033 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application requires-asm8-experimental-1.0-SNAPSHOT has stopped successfully.
+[4/13/20, 22:49:22:543 CEST] 00000076 com.ibm.ws.transport.iiop.internal.ORBWrapperInternal        A CWWKI0002I: The CORBA name server is no longer available at corbaloc:iiop:localhost:2809/NameService.
+[4/13/20, 22:49:22:860 CEST] 00000076 com.ibm.ws.sib.utils.ras.SibMessage                          I  CWSIS1589I: The file store has stopped successfully.
+[4/13/20, 22:49:23:116 CEST] 00000076 com.ibm.ws.sib.utils.ras.SibMessage                          I  CWSID0121I: JMS server stopped.  
+[4/13/20, 22:49:23:363 CEST] 00000076 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[4/13/20, 22:49:23:385 CEST] 00000076 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been deactivated. 
+[4/13/20, 22:49:23:898 CEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server defaultServer stopped after 38.185 seconds.
